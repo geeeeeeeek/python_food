@@ -63,7 +63,7 @@ npm install
 ```
 (3) 运行项目
 ```
-npm run serve
+npm run dev
 ```
 
 
@@ -71,21 +71,13 @@ npm run serve
 
 首页
 
-![]()
+![](https://raw.githubusercontent.com/geeeeeeeek/python_food/master/server/upload/img/a.png)
 
 
 后台页面
 
-![]()
+![](https://raw.githubusercontent.com/geeeeeeeek/python_food/master/server/upload/img/b.png)
 
-
-
-### 待完善功能
-
-- 邮箱推送功能
-- 手机号绑定功能
-- 粉丝关注功能
-- 支付功能
 
 
 
