@@ -31,22 +31,7 @@
       </div>
       <a-spin :spinning="contentData.loading" style="min-height: 200px;">
         <div class="pc-thing-list flex-view">
-          <div v-for="item in contentData.pageData" :key="item.id"
-               class="thing-item item-column-3"><!---->
-            <div class="img-view">
-              <img :src="item.cover">
-              <img @click="handleAddCart(item)" style="width: 24px;height: 24px; margin-top: -58px;margin-left: 8px;" :src="MessageIcon">
-
-            </div>
-            <div class="info-view" @click="handleDetail(item)">
-              <h3 class="thing-name">{{ item.title.substring(0, 12) }}</h3>
-              <span>
-                <span class="a-price-symbol">¥</span>
-                <span class="a-price">{{ item.price }}</span>
-              </span>
-            </div>
-          </div>
-          <div v-if="contentData.pageData.length <= 0 && !contentData.loading" class="no-data" style="">暂无数据</div>
+          暂无数据 
         </div>
       </a-spin>
       <div class="page-view" style="">
